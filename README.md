@@ -1,2 +1,3 @@
-# Isabella
-Conta criada a fim escolar.
+# Isabella Fagundes
+Experiência com:
+Python; HTML; CSS; etc.
