@@ -1,0 +1,21 @@
+qtd_excelente = 0
+qtd_ruim = 0
+
+num_entrevistados = 50
+
+for i in range(num_entrevistados):
+    print(f"\nEntrevistado {i+1}:")
+    
+    nome = input("Digite o nome: ")
+    idade = input("Digite a idade: ")
+    
+    opiniao = int(input("Avalie o atendimento (1- Excelente, 2- Bom, 3- Ruim): "))
+    
+    if opiniao == 1:
+        qtd_excelente = qtd_excelente + 1
+    elif opiniao == 3:
+        qtd_ruim = qtd_ruim + 1
+
+print("\nResultado da pesquisa:")
+print("Excelente:", qtd_excelente)
+print("Ruim:", qtd_ruim)
